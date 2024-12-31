@@ -175,3 +175,33 @@ a{
     font-size: 18px;
 }
 /* footer end */
+
+
+/* Media query for phones */
+@media screen and (max-width: 600px) {
+    .main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 1rem;
+        row-gap: 2rem;
+        column-gap: 0.5rem;
+    }
+
+    .card-container {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    .header-description {
+        font-size: 16px;
+    }
+
+    .footer-container {
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
