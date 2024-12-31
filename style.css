@@ -204,4 +204,7 @@ a{
         padding: 1rem;
         font-size: 14px;
     }
+    .tag{
+        padding:0 1.5rem 0 0;
+    }
 }
